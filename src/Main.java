@@ -146,7 +146,7 @@ public class Main {
                 }
             }
         } catch (FileNotFoundException e) {
-            System.out.println("File not found. Creating a new file...");
+            //System.out.println("File not found. Creating a new file...");
             createDefaultFile();
         }
 
