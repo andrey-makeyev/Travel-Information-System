@@ -113,7 +113,7 @@ public class Main {
                         calculateAveragePrice(travels);
                         break;
                     case EXIT:
-                        System.out.println("Exiting...");
+                        //System.out.println("Exiting...");
                         System.exit(0);
                         break;
                 }
