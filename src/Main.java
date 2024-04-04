@@ -63,7 +63,7 @@ public class Main {
 
         while (true) {
             // Display command menu
-            System.out.println("--------------------------------------------------------------------");
+            /*System.out.println("--------------------------------------------------------------------");
             System.out.println("|                  Travel Information System                       |");
             System.out.println("--------------------------------------------------------------------");
             System.out.printf("| %-7s| %-31s| %-23s|%n", "Command", "Arguments", "Description");
@@ -79,7 +79,7 @@ public class Main {
             System.out.println("--------------------------------------------------------------------");
 
             // Prompt for command input
-            System.out.print("Enter command: ");
+            System.out.print("Enter command: ");*/
 
             // Read user input
             String input = scanner.nextLine().trim().toLowerCase();
@@ -308,7 +308,7 @@ public class Main {
     // Edit an existing travel
     private static void editTravel(List<Travel> travels, String[] args) {
         // Validate number of arguments
-        if (args.length < 2 || args.length > 7) { // Максимальное количество аргументов изменено на 7
+        if (args.length < 2 || args.length > 7) {
             System.out.println("wrong field count");
             return;
         }
